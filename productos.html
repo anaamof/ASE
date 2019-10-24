@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ana Amaya">
+    <meta name= "description" content= "jajajadlkmsd">
+    <meta name= "keywords" content="miel, chabtic, miel organica, natural, miel natural">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="js/modernizr.js"></script>
+    <link rel="stylesheet" href="productos_estilos2.css">
+    <title>Chabtic: Productos</title>
+</head>
+<body>
+    <div>
+    <header id="header_d">
+            <h1>Chabtic: Productos</h1> 
+            <nav id="menu_desktop">
+                <ul>
+                    <li><a>Inicio</a><span>flecha</span><ul>
+                        <li><a>Nuestras Certificaciones</a></li>
+                        <li><a>Somos Sustentables</a></li>
+                        <li><a>¿Quieres Colaborar?</a></li>
+                    </ul></li>
+                    <li><a>Nosotros</a><span>flecha</span><ul>
+                        <li><a>Compromiso</a></li>
+                        <li><a>Nuestra Historia</a></li>
+                        <li><a>Equipo Chabtic</a></li>
+                    </ul></li>
+                    <li><a>Productos</a><span>flecha</span><ul>
+                        <li><a>Nuestra Miel</a></li>
+                        <li><a>Miel Saborizada</a></li>
+                        <li><a>Nuestros Certificados</a></li>
+                    </ul></li>
+                    <li><a>Novedades</a><span>flecha</span><ul>
+                        <li><a>Eventos</a></li>
+                        <li><a>Tips</a></li>
+                        <li><a>Recetas</a></li>
+                    </ul></li>
+                    <li><a>Contacto</a></li>
+                </ul>
+            </nav>
+            <span class="fraseh"><strong class="recuadro">Productos</strong><br>
+                Natural y Sustentable</span>
+    </header>
+   <section>
+       <h2>Nuestra <span class="recuadroh2">Miel</span> </h2>
+       <div class="productos">
+        <article>
+            <figure><img  id="mielg" src="images/tarro_grande.png"></figure>
+            <figcaption>Tarro Grande 660ml</figcaption>
+            <button class= "buttonblack" onClick="abrir()">Ver más</button>
+        </article>
+        <article>
+            <figure ><img id="mielm" src="images/tarro_mediano.png"></figure>
+             <figcaption>Tarro Mediano 290ml</figcaption>
+             <button class= "buttonblack" onClick="abrir()">Ver más</button>
+         </article>
+         <article>
+            <figure><img id="mielc" src="images/tarro_pequeno.png"></figure>
+            <figcaption>Tarro Pequeño 40ml</figcaption>
+            <button class= "buttonblack" onClick="abrir()">Ver más</button>
+        </article>
+       </div>  
+   </section>
+   <section>
+    <h2>¡Prueba nuestra <span class="recuadroh2">saborizada</span> & <span class="recuadroh2">con especias</span> !</h2>
+    <div class="productos">
+        <article>
+            <figure><img id="mielg" src="images/tarro_grande.png" ></figure>
+            <figcaption>Tarro Grande 660ml</figcaption>
+            <button class= "buttonblack" onClick="abrir()">Ver más</button>
+        </article>
+        <article>
+            <figure><img id="mielm" src="images/tarro_mediano.png"></figure>
+             <figcaption>Tarro Mediano 290ml</figcaption>
+             <button class= "buttonblack" onClick="abrir()">Ver más</button>
+         </article>
+         <article>
+            <figure><img id="mielc" src="images/tarro_pequeno.png"></figure>
+            <figcaption>Tarro Pequeño 40ml</figcaption>
+            <button class= "buttonblack" onClick="abrir()">Ver más</button>
+        </article>
+    </div>
+   </section>
+   <div class="certificados">
+       <h2>Nuestros <span class="recuadroh2">Certificados</span> </h2>
+       <div class="logos">
+        <article>
+            <h3>Sagarpa</h3>
+            <figure><img src="images/sagarpa.png"></figure>
+        </article> 
+        <article>
+             <h3>USDA</h3>
+             <figure><img src="images/usda.png"></figure>
+         </article> 
+         <article>
+             <h3>MX-BIO-104</h3>
+             <figure><img src="images/mxbio104.jpg" ></figure>
+         </article> 
+         <article>
+             <h3>Certimex</h3>
+             <figure><img src="images/certimex.jpg"></figure>
+         </article> 
+       </div>     
+   </div>
+   <div id="modal"class="modal">
+    <span class="cerrar_modal" onClick="cerrar()">close</span>
+    <span class="modal_titulo">Tarro <span class="recuadroh2">Pequeño</span></span>
+    <figure id="mielmodal"><img src="images/tarro_pequeno.png"></figure>       
+    <div class="modal_contenido">
+        <p>Este producto es delicioso porque es de miel blablaalbablablabalb</p>
+        <span class="estrellas">
+            <span class="star">star</span>
+            <span class="star">star</span>
+            <span class="star">star</span>
+            <span class="star">star</span>
+            <span class="star">star</span>
+        </span>
+        <p><strong>Tabla nutrimental</strong></p>
+        <figure></figure>
+    </div>
+    <button type="button" class="modal_button">Comprar mayoreo</button>
+    <button type="button" class="modal_button">Comprar menudeo</button>    
+    </div>
+    </div>
+    <script src="./script-modal.js"></script>
+</body>
+</html>
